@@ -1,0 +1,43 @@
+body {
+    background-image : url("asset/bg.png");
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+   }
+     
+   .btn-1 {
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: aliceblue;
+    border-radius: 40px;
+    color: #FF6600;
+    padding: 5px 10px;
+    float: left;
+}
+
+.btn {
+ background-color: aliceblue;
+ border-radius: 40px;
+ color: #FF6600;
+ margin-right: 15px;
+}
+
+.img {
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+
+.box-1 {
+ width:700px;
+ height: 500px;
+ padding: 20px;
+ background: rgba(252, 249, 249, 0.671);
+ border-radius: 40px;
+ color: #FF6600;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+

@@ -1,3 +1,6 @@
+<?php 
+include 'config.php';
+?>
 <html>
 <head>
   <style>
@@ -17,6 +20,7 @@ background-size: auto 100%;
 }
   </style>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head>
 
 
@@ -34,21 +38,21 @@ background-size: auto 100%;
 </div>
         <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
 
-          <form style="margin-left: 12%; width: 70%; background-color: #F8F8F8; padding: 30px; border-radius: 15px; box-shadow: 0px 5px 5px 5px #D9D9D9;">
+          <form action="resultmarket.php" method="get" style="margin-left: 12%; width: 70%; background-color: #F8F8F8; padding: 30px; border-radius: 15px; box-shadow: 0px 5px 5px 5px #D9D9D9;">
             <div><h3 class="" style="">Data Market</h3><h8> Ketahui negara dengan jumlah permintaan pasar terbanyak sesuai produk yang kamu punya!</h8></div>
 <br>
             <div class="form-group">
            <label for="email">Masukkan nama komoditas anda:</label>
-           <input style="border-radius: 15px; border-color: #676F73;" type="text" class="form-control" id="email" placeholder="Masukkan Nama Produk Anda">
+           <input required type="text" name="cari" style="border-radius: 15px; border-color: #676F73;" type="text" class="form-control" id="email" placeholder="Masukkan Nama Produk Anda">
           </div>
 <br>
           <div class="form-group">
            <label for="email">HS Code</label>
-           <input style="border-radius: 15px; border-color: #676F73;" type="text" class="form-control" id="email" placeholder="Kode Produksi Komoditas">
+           <input disabled style="border-radius: 15px; border-color: #676F73;" type="text" class="form-control" id="email" placeholder="Kode Produksi Komoditas">
           </div>
 <br>
             <div class="pt-1 mb-4">
-              <a href="simulasi.php" class="btn" style="background-color: white; width: 25%; border-color: #FF6600; border-radius: 15px;" type="button">Submit</a>
+              <input type="submit" value="Submit" class="btn" style="background-color: white; width: 25%; border-color: #FF6600; border-radius: 15px;" type="button"></input>
             </div>
           </form>
 
@@ -62,3 +66,4 @@ background-size: auto 100%;
     </div>
   </div>
 </section>
+

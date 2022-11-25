@@ -23,6 +23,15 @@ body {
  margin-right: 15px;
 }
 
+.btn-1:hover{
+    background-color: #FF6600;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #FF6600;
+    color: white;
+}
 .img {
  padding-top: 50px;
  padding-bottom: 50px;
@@ -32,7 +41,7 @@ body {
  width:700px;
  height: 500px;
  padding: 20px;
- background: rgba(252, 249, 249, 0.671);
+ background: rgba( 217, 217, 217, 0.71);
  border-radius: 40px;
  color: #FF6600;
  position: absolute;

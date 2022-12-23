@@ -38,7 +38,7 @@ disini harusnya piechar
 
 
     </div>
-    <!-- Section kiri buat card -->
+
     <div class="col">
     	  <?php 
   if(isset($_GET['cari'])){

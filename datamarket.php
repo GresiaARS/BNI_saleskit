@@ -34,6 +34,7 @@ background-size: auto 100%;
     
         <div style="margin-left: 20%; margin-top: -25px;">
         <h3 >JELAJAHI PASAR EKSPOR</h3><h8> Eksplor permintaan pasar disini.</h8>
+       <!--  <iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/157fc882-8b80-4ed1-89b8-2a9f650f1b91/page/Qc09C" frameborder="0" style="border:0" allowfullscreen></iframe> -->
        </div>
 </div>
         <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
@@ -60,8 +61,7 @@ background-size: auto 100%;
 
       </div>
       <div class="col-sm-6 px-0 d-none d-sm-block">
-        <img src="asset/bgtrans.png"
-          alt="Login image" class="w-100 vh-100" style="object-fit: cover; object-position: left;">
+        <img src="asset/bgtrans.png" alt="Login image" class="w-100 vh-100" style="object-fit: cover; object-position: left;">
       </div>
     </div>
   </div>
